@@ -3,7 +3,7 @@ const fs = require("fs");
 const request = require("request");
 
 const link = [
- "https://i.imgur.com/bbigbCj.mp4",
+ "https://i.imgur.com/ccDwNEN.gif",
 
 ];
 
@@ -26,10 +26,10 @@ module.exports.config = {
 module.exports.handleEvent = async ({ api, event, Threads }) => {
  const content = event.body ? event.body : '';
  const body = content.toLowerCase();
- if (body.startsWith("🥺")) {
+ if (body.startsWith("😈")) {
  const rahad = [
- "╭•┄┅════❁🌺❁════┅┄•╮\n \n  ham bole toh bole kya-!!🥺\n\n╰•┄┅════❁🌺❁════┅┄•╯",
- "╭•┄┅════❁🌺❁════┅┄•╮\n\n ham kare toh kare kya-!!🥺\n\n╰•┄┅════❁🌺❁════┅┄•╯"
+ "╭•┄┅════❁🌺❁════┅┄•╮\n \n  Hahahahhahahaa-!!😈\n\n╰•┄┅════❁🌺❁════┅┄•╯",
+ "╭•┄┅════❁🌺❁════┅┄•╮\n\n hahahahahahaha-!!😈\n\n╰•┄┅════❁🌺❁════┅┄•╯"
 
  ];
  const rahad2 = rahad[Math.floor(Math.random() * rahad.length)];
